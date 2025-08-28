@@ -20,10 +20,12 @@ ipaddress → for handling IP ranges
 
 # 🛠️ Installation & Setup
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/ahinsa2/simple-network-scanner.git
    cd simple-network-scanner
    ```
+   
 2.Install Python (if not already installed).
 Check version:
 ```bash
