@@ -19,7 +19,7 @@ ipaddress → for handling IP ranges
 ---
 
 # 🛠️ Installation & Setup
-1. Clone the repository:
+   1. Clone the repository:
 
    ```bash
    git clone https://github.com/ahinsa2/simple-network-scanner.git
