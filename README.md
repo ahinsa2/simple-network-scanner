@@ -26,29 +26,29 @@ ipaddress → for handling IP ranges
    cd simple-network-scanner
    ```
    
-2.Install Python (if not already installed).
-Check version:
-```bash
-python --version
-```
-3.Run the scanner:
-```bash
-python scanner.py
-```
-***📘 Inputs You Provide***
-
-IP Range (CIDR format) → Example: 192.168.1.0/24
-
-👉 You can find your local network IP range using:
-
-On Windows: ipconfig
-
-On Linux/Mac: ifconfig or ip a
-
-4.Test case
-```bash
-    network_scanner("192.168.1.0/24", [22, 80, 443])
-```
+   2.Install Python (if not already installed).
+   Check version:
+   ```bash
+   python --version
+   ```
+   3.Run the scanner:
+   ```bash
+   python scanner.py
+   ```
+   ***📘 Inputs You Provide***
+   
+   IP Range (CIDR format) → Example: 192.168.1.0/24
+   
+   👉 You can find your local network IP range using:
+   
+   On Windows: ipconfig
+   
+   On Linux/Mac: ifconfig or ip a
+   
+   4.Test case
+   ```bash
+       network_scanner("192.168.1.0/24", [22, 80, 443])
+   ```
 
 
 ---
