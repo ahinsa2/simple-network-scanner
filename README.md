@@ -45,6 +45,12 @@ On Windows: ipconfig
 
 On Linux/Mac: ifconfig or ip a
 
+4.Test case
+```bash
+    network_scanner("192.168.1.0/24", [22, 80, 443])
+```
+
+
 ---
 # 🎯 Use Cases
 Learn how network scanning works
