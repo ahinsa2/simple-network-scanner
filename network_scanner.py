@@ -33,7 +33,3 @@ def network_scanner(network, ports_to_scan):
         if open_ports:
             print(f"{ip:15} | {hostname:20} | Open ports: {open_ports}")
 
-# Example usage
-if __name__ == "__main__":
-    # Replace with your network range (for home Wi-Fi usually 192.168.1.0/24)
-    network_scanner("192.168.1.0/24", [22, 80, 443])
