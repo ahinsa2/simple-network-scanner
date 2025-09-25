@@ -1,7 +1,7 @@
 import socket
 import ipaddress
 
-# Function to check if a port is open
+#this Function to check if a port is open
 def scan_port(ip, port):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -32,4 +32,5 @@ def network_scanner(network, ports_to_scan):
         
         if open_ports:
             print(f"{ip:15} | {hostname:20} | Open ports: {open_ports}")
+
 
